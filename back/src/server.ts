@@ -20,6 +20,7 @@ app.register(memoriesRoutes)
 app
   .listen({
     port: 3050,
+    host: '0.0.0.0',
   })
   .then(() => {
     console.log('server running port 3050')
